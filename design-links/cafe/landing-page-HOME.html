@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="top">
+            <div class="header-wrapper">
+                <h1>mY<span>cafe</span></h1>
+                <nav>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a> </li>
+                        <li><a href="">Takeaway</a> </li>
+                        <li><a href="">Our Team</a> </li>
+                        <li><a href="">Gallery</a> </li>
+                        <li><a href="">Contact Us</a> </li>
+                    
+                </nav>
+            </div>
+
+            <div class="main-text">
+                <h1>Passion</h1>
+                <h1>Knowledge </h1>
+                <h1>And Experience</h1>
+                <p>Across five spectacular locations, we offer freshly roasted coffee, award winning dishes inside a modern-contemporary designed venue. </p>
+            </div>
+        </div>
+
+
+        <div class="middle">
+            <div class="box box1">
+                <img src="Images/2nd-BG.jpg" alt="" width="600px" height="800px" >
+                <div class="box1-text">
+                    <h2>Fresh and Roasted</h2>
+                    <hr>
+                    <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-2">
+            <div class="box box2">
+                <div class="box2-text">
+                    <h2>Our mission</h2>  
+                    <hr>
+                    <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                    <button>Read more</button>
+                </div>
+                <img src="Images/3rd-BG.jpg" alt="" width="700px" height="500px" >
+            </div>
+        </div>
+
+        <div class="wrapper">
+     
+            <div class="footer-wrapper">
+                
+                <a href="">About Us</a>
+                <a href="">Our Story</a>
+                <a href="">Corporate responsibility</a>
+                <a href="">Gallery</a>
+                <a href="">Our team</a>
+                <a href="">Find us</a>
+                <a href="">Careers</a>
+            </div>
+            <p class="copyRight"> Impact Web Design, &copy; 2020.</p>
+        </div>
+        
+</body>
+</html>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .top{
+        background-image: url(Images/main-BG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        margin: 0;
+    }
+
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-wrapper h1{
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(255, 255, 255, 0.698);
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+  
+       
+    }
+
+    nav li{
+        padding: 0 30px;
+        list-style: none;
+        font-size: 20px;
+        
+        
+    }
+
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 200px;
+        color: rgb(255, 255, 255);
+        align-items: flex-end;
+        
+    }
+
+    li:hover{
+        font-size: 23px;
+        transition: ease-in-out 0.3s;
+        text-transform: uppercase;
+    }
+
+    .main-text p{
+        width: 30%;
+        padding: 30px 0;
+        margin-bottom: 200px ;
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .main-text h1{
+        padding: 10px 0;
+        font-size: 60px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    @media (min-width: 1000px) {
+        .main-text h1{
+        font-size: 40px;
+    }
+    .main-text p{
+        width: 60%;
+        
+    }
+    .box1 img{
+       width: 400px;
+       height: 600px;
+    }
+    .box1-text h2{
+        font-size: 60px;
+    }
+
+    .box1-text p{
+        font-size: 15px;
+    }
+    .box2 img{
+        width: 500px;
+        height: 400px;
+        border-radius: 5px;
+    }
+    }
+
+    .middle{
+        background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128, 0.397));
+        margin: 0;
+    }
+
+   
+
+    .box1{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+
+    }
+
+    .box1-text{
+        align-self: center;
+        margin: 0 100px;
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+    }
+
+    .box1-text p {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        width: 85%;
+        margin: 20px 0;
+        letter-spacing: 3px;
+        line-height:30px;
+  
+    }
+
+    .box1-text button{
+        border: 3px solid black;
+        background: transparent;
+        font-size: 20px;
+        padding: 10px 20px;
+        position: relative;
+        
+        cursor: pointer;
+    }
+
+    .box1-text button:hover{
+        padding: 20px 30px;
+        transition: ease-in-out 0.3s;
+        background: black;
+        color: white;
+        
+    }
+
+    .box1-text hr{
+        opacity: 0.4;
+    }
+
+    .box1 img{
+        border-radius: 10px;
+        opacity: 0.9;
+        box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
+    }
+
+
+    .middle-2{
+        background: linear-gradient(rgba(128, 128, 128, 0.397), rgb(255, 255, 255));
+        padding: 80px 0 ;
+    }
+
+    .box2{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+   
+
+    }
+
+    .box2-text{
+        align-self: center;
+        margin: 0 100px;
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+        
+       
+  
+    }
+
+    .box2-text p {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        width: 85%;
+        margin: 30px 0;
+        letter-spacing: 3px;
+        line-height:30px;
+      
+    }
+
+    .box2-text button{
+        border: 3px solid black;
+        background: transparent;
+        font-size: 20px;
+        padding: 10px 20px;
+        position: relative;
+      
+        cursor: pointer;
+    }
+
+    .box2-text button:hover{
+        padding: 20px 30px;
+        transition: ease-in-out 0.3s;
+        background: black;
+        color: white;
+    }
+
+    .box2-text hr{
+        opacity: 0.4;
+    }
+
+    .box2 img{
+        border-radius: 3px;
+        opacity: 0.9;
+        box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-wrapper {
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128, 0.062));
+        
+    }
+
+    .footer-wrapper a{
+        margin: 0 30px;
+        color: black;
+        text-decoration: none;
+        padding: 20px 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13.1px; 
+    }
+
+    .footer-wrapper a:hover{
+        background: #adadad60;
+        transition: ease-in-out 0.3s;
+        border-radius: 5px;
+        
+        
+    }
+
+    .footer-wrapper a:visited{
+        color: black;
+    }
+
+    .copyRight {
+    color: black;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+}
+</style>

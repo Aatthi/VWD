@@ -8,8 +8,8 @@
 	background-image: url(Images/header-BG.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100vh;
 }
-
 .header-wrapper {
 	display: flex;
 	align-items: center;
@@ -56,67 +56,28 @@ nav a {
 	color: wheat;
 }
 
-.header-text {
+.main {
+	display: flex;
 	color: wheat;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template: 1fr 1fr 1fr;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
-.header-text h1 {
+.main h1 {
+	font-size: 40px;
 	font-weight: 100;
-	align-self: center;
-	justify-self: center;
-	margin: 47px;
-	font-family: 'Raleway', sans-serif;
+	margin: 20px 0;
 }
 
-.header-text p {
-	align-self: center;
-	justify-self: center;
-	margin-bottom: 725px;
-	font-family: 'Roboto Mono', monospace;
+.main h2 {
+	font-size: 20px;
+	font-weight: 900;
 }
 
-.header-text .coming-soon {
-	color: wheat;
-}
-
-@media (max-width: 1600px) {
-	.header-text p {
-		margin-bottom: 460px;
-	}
-}
-
-@media (max-width: 850px) {
-	.header-wrapper {
-		flex-direction: column;
-	}
-	.header-text p {
-		margin-bottom: 420px;
-	}
-}
-
-@media (max-width: 520px) {
-	.header-wrapper nav {
-		flex-direction: column;
-	}
-	.header-wrapper nav li {
-		padding: 10px;
-		font-size: 20px;
-		font-weight: 100;
-		font-family: 'Raleway Dots', cursive;
-	}
-	.header-text h1 {
-		font-size: 0 auto;
-		text-align: center;
-	}
-	.header-text p {
-		text-align: center;
-	}
-	.header-text p {
-		margin-bottom: 190px;
-	}
+.main h2 span {
+	font-weight: 100;
+	margin-left: 10px;
 }
 
 .copyRight {

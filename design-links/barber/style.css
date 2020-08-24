@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	margin-bottom: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header-wrapper {
+	background-image: url(Images/main1-LS.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: fit-content;
+	color: white;
+	opacity: 0.9;
+}
+
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo-image {
+	opacity: 0.3;
+}
+
+.header nav {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.header nav a {
+	margin: 0 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 82%;
+	justify-content: space-between;
+}
+
+.main-text h1 {
+	font-size: 60px;
+	margin: 30px 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.main-text p {
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+}
+
+a:hover {
+	background-color: rgb(42, 42, 42);
+	border-radius: 10px;
+	margin: 0 10px 0 10px;
+	transition: ease-in-out .4s;
+	cursor: pointer;
+}
+
+.top-wallpaper {
+	width: 100%;
+}
+
+.middle {
+	background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128, 0.397));
+	margin: 0;
+}
+
+.box1 {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.box1-text {
+	align-self: center;
+	margin: 0 100px;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+}
+
+.box1-text p {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	width: 85%;
+	margin: 20px 0;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+
+.box1-text button {
+	border: 3px solid black;
+	background: transparent;
+	font-size: 20px;
+	padding: 10px 20px;
+	position: relative;
+
+	cursor: pointer;
+}
+
+.box1-text button:hover {
+	padding: 20px 30px;
+	transition: ease-in-out 0.3s;
+	background: black;
+	color: white;
+}
+
+.box1-text hr {
+	opacity: 0.4;
+}
+
+.box1 img {
+	border-radius: 10px;
+	opacity: 0.9;
+	box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
+}
+
+.middle-2 {
+	background: linear-gradient(rgba(128, 128, 128, 0.397), rgb(255, 255, 255));
+	padding: 80px 0;
+}
+
+.box2 {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.box2-text {
+	align-self: center;
+	margin: 0 100px;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+}
+
+.box2-text p {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	width: 85%;
+	margin: 30px 0;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+
+.box2-text button {
+	border: 3px solid black;
+	background: transparent;
+	font-size: 20px;
+	padding: 10px 20px;
+	position: relative;
+
+	cursor: pointer;
+}
+
+.box2-text button:hover {
+	padding: 20px 30px;
+	transition: ease-in-out 0.3s;
+	background: black;
+	color: white;
+}
+
+.box2-text hr {
+	opacity: 0.4;
+}
+
+.box2 img {
+	border-radius: 3px;
+	opacity: 0.9;
+	box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-wrapper {
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128, 0.062));
+}
+
+.footer-wrapper a {
+	margin: 0 30px;
+	color: black;
+	text-decoration: none;
+	padding: 20px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13.1px;
+}
+
+.footer-wrapper a:hover {
+	background: #adadad60;
+	transition: ease-in-out 0.3s;
+	border-radius: 5px;
+}
+
+.footer-wrapper a:visited {
+	color: black;
+}
+
+.copyRight {
+	color: black;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+}
+
+.conatiner-1 {
+	background-image: url(Images/main2-LS.jpg);
+}
+
+.homeText-1 {
+	color: black;
+	width: 80%;
+}
+
+.bussinessPhotos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 8px;
+	border-radius: 10%;
+	margin-right: 3em;
+	opacity: 0.8;
+}
+
+.bussinessPhotos img:hover {
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 2.8em;
+	color: #101010;
+	padding-left: 1em;
+}
+
+.Social {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+
+	opacity: 0.95;
+}
+
+.Social li {
+	display: inline-block;
+	align-items: center;
+	padding: -30% -30%;
+	width: 135px;
+	height: 100px;
+	-webkit-transition: width 1s, height 1s;
+	transition: width 1s, height 1sec;
+}
+
+.Social li:hover {
+	background-color: #ebebeb;
+
+	width: 110px;
+	height: 100px;
+	background-position: center;
+	border-radius: 10%;
+}
