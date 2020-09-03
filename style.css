@@ -110,7 +110,7 @@ nav a:hover {
 		padding: 10px;
 		font-size: 20px;
 		font-weight: 100;
-		font-family: 'Raleway Dots', cursive;
+		font-family: 'Roboto Mono', monospace;
 	}
 	.header-text h1 {
 		font-size: 0 auto;
@@ -131,5 +131,5 @@ nav a:hover {
 	letter-spacing: 2px;
 	text-align: center;
 	color: wheat;
-	padding: 10px 0;
+	padding: 40px 0;
 }
