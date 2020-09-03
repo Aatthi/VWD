@@ -8,6 +8,7 @@
 	background-image: url(Images/header-BG.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100vh;
 }
 
 .header-wrapper {
