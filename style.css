@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	background: black;
+}
+
 .header {
 	background-image: url(Images/header-BG.jpg);
 	background-repeat: no-repeat;
