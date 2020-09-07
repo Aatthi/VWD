@@ -5,14 +5,16 @@
 }
 
 html {
-	background: black;
+	background: white;
+}
+
+main {
 }
 
 .header {
 	background-image: url(Images/header-BG.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 100vh;
 }
 
 .header-wrapper {
@@ -83,7 +85,7 @@ nav a:hover {
 .header-text p {
 	align-self: center;
 	justify-self: center;
-	margin-bottom: 725px;
+	margin-bottom: 100px;
 	font-family: 'Roboto Mono', monospace;
 }
 
