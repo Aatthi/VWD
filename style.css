@@ -8,11 +8,8 @@ html {
 	background: white;
 }
 
-main {
-}
-
 .header {
-	background: linear-gradient(#2980b9, #2c3e50);
+	background: linear-gradient(#43c6ac, #191654);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: -20px;
