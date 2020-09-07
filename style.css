@@ -93,6 +93,31 @@ nav a:hover {
 	color: wheat;
 }
 
+.main {
+	margin: 100px 0;
+}
+
+.personal-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.profile-picture img {
+	border-radius: 50%;
+}
+
+.profile-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+	margin: 0 0 0 100px;
+}
+
 @media (max-width: 1600px) {
 	.header-text p {
 		margin-bottom: 460px;
