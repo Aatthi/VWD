@@ -188,6 +188,29 @@ nav a:hover {
 	align-items: center;
 }
 
+.designs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.design-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	text-align: center;
+	width: 70%;
+	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 50px 0;
+}
+
+.design-list p {
+}
+
 @media (max-width: 1600px) {
 	.header-text p {
 		margin-bottom: 460px;
