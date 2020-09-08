@@ -76,14 +76,14 @@ nav a:hover {
 	font-weight: 100;
 	align-self: center;
 	justify-self: center;
-	margin: 47px;
+	margin: 47px 0;
 	font-family: 'Raleway', sans-serif;
 }
 
 .header-text p {
 	align-self: center;
 	justify-self: center;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -92,7 +92,8 @@ nav a:hover {
 }
 
 .main {
-	margin: 100px 0;
+	margin: 0px 0;
+	background: rgba(199, 199, 199, 0.192);
 }
 
 .personal-info {
@@ -114,6 +115,12 @@ nav a:hover {
 	text-align: center;
 	width: 30%;
 	margin: 0 0 0 100px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 25px;
+}
+
+.profile-text h1 {
+	margin: 30px 0;
 }
 
 .services {
@@ -128,17 +135,36 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 }
 
+.services-info div {
+	border: 1px solid rgba(0, 0, 0, 0.13);
+	padding: 20px 50px;
+	border-radius: 40px;
+	background: rgba(199, 199, 199, 0.192);
+	width: 100%;
+}
+
+.services-info h2 {
+	font-family: 'Gayathri', sans-serif;
+	margin: 20px 0;
+}
+
+.services-info p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 25px;
+}
+
 .services div {
-	margin: 10px 50px;
+	margin: 10px 30px;
 	text-align: center;
 }
 
-.services h2 {
+.services h1 {
 	margin: 30px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .website-design {
