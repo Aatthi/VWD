@@ -78,14 +78,16 @@ nav a:hover {
 	align-self: center;
 	justify-self: center;
 	margin: 47px 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
 }
 
 .header-text p {
 	align-self: center;
 	justify-self: center;
 	margin-bottom: 0px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
 }
 
 .header-text .coming-soon {
@@ -247,10 +249,30 @@ nav a:hover {
 .design-list div {
 	margin: 30px 30px;
 }
-
+/* 
 @media (max-width: 1600px) {
 	.header-text p {
 		margin-bottom: 460px;
+	}
+} */
+
+@media (max-width: 1300px) {
+	.services-info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.services div {
+		margin: 10px 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1300px) {
+	.design-list {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
@@ -258,12 +280,41 @@ nav a:hover {
 	.header-wrapper {
 		flex-direction: column;
 	}
-	.header-text p {
+	/* .header-text p {
 		margin-bottom: 420px;
+	} */
+	.services-info {
+		display: flex;
+		flex-direction: column;
+	}
+	.services div {
+		margin: 20px 30px;
+	}
+
+	.services h1 {
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
 	}
 }
 
-@media (max-width: 520px) {
+@media (max-width: 816px) {
+	.personal-info {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.profile-text {
+		margin: 50px 0 0 0;
+	}
+}
+
+@media (max-width: 700px) {
+	.design-list {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 575px) {
 	.header-wrapper nav {
 		flex-direction: column;
 	}
@@ -280,9 +331,9 @@ nav a:hover {
 	.header-text p {
 		text-align: center;
 	}
-	.header-text p {
+	/* .header-text p {
 		margin-bottom: 190px;
-	}
+	} */
 }
 
 .copyRight {
