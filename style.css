@@ -337,10 +337,7 @@ nav a:hover {
 		font-weight: 100;
 		font-family: 'Roboto Mono', monospace;
 	}
-	.header-text h1 {
-		font-size: 0 auto;
-		text-align: center;
-	}
+
 	.header-text p {
 		text-align: center;
 	}
