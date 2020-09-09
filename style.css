@@ -273,6 +273,53 @@ nav a:hover {
 	}
 } */
 
+.contact-me {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input {
+	width: 400px;
+	height: 40px;
+	border-radius: 30px;
+	padding: 0 10px;
+	margin: 0 20px;
+	outline: none;
+	font-size: 20px;
+}
+
+textarea {
+	width: 700px;
+	height: 300px;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 0 20px;
+	outline: none;
+	font-size: 20px;
+}
+
+.label label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form button {
+	border: 4px solid black;
+	border-radius: 50px;
+	padding: 10px 20px;
+	font-size: 30px;
+	background: none;
+}
+
+form button:hover {
+	background: black;
+	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
 @media (max-width: 1300px) {
 	.services-info {
 		display: flex;
@@ -327,6 +374,11 @@ nav a:hover {
 		width: 300px;
 		height: 300px;
 	}
+
+	textarea {
+		width: 400px;
+		height: 200px;
+	}
 }
 @media (max-width: 1000px) {
 	.services {
@@ -379,6 +431,22 @@ nav a:hover {
 	}
 	.profile-text {
 		width: 80%;
+	}
+
+	textarea {
+		width: 300px;
+		height: 200px;
+		font-size: 15px;
+	}
+
+	input {
+		width: 300px;
+		height: 40px;
+		font-size: 15px;
+	}
+	.label label {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
