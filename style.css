@@ -149,7 +149,8 @@ nav a:hover {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin: 100px 0;
+	margin: 0 auto;
+	width: 80%;
 }
 
 .services-info {
@@ -162,7 +163,7 @@ nav a:hover {
 
 .services-info div {
 	border: 1px solid rgba(0, 0, 0, 0.13);
-	padding: 20px 50px;
+	padding: 20px 30px;
 	border-radius: 40px;
 	background: rgba(199, 199, 199, 0.192);
 	width: 100%;
@@ -289,9 +290,16 @@ nav a:hover {
 	}
 }
 
+@media (max-width: 1000px) {
+	.services {
+		width: 90%;
+	}
+}
+
 @media (max-width: 850px) {
 	.header-wrapper {
 		flex-direction: column;
+		text-align: center;
 	}
 	/* .header-text p {
 		margin-bottom: 420px;
@@ -307,6 +315,19 @@ nav a:hover {
 	.services h1 {
 		margin: 0;
 		font-family: 'Montserrat', sans-serif;
+	}
+	.services {
+		width: 80%;
+	}
+
+	.personal-info img {
+		width: 300px;
+		height: 300px;
+	}
+}
+@media (max-width: 1000px) {
+	.services {
+		width: 90%;
 	}
 }
 
@@ -338,7 +359,7 @@ nav a:hover {
 		font-family: 'Roboto Mono', monospace;
 	}
 
-	.header-text p {
+	.header-text h1 {
 		text-align: center;
 	}
 	/* .header-text p {
