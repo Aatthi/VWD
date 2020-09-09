@@ -100,6 +100,9 @@ nav a:hover {
 	padding: 100px 0 0 0;
 }
 
+.div {
+	margin: 80px 0;
+}
 .personal-info {
 	display: flex;
 	justify-content: center;
