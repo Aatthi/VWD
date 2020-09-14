@@ -290,6 +290,10 @@ input {
 	border: 2.5px solid black;
 }
 
+.required {
+	color: rgba(255, 0, 0, 0.513);
+}
+
 textarea {
 	width: 700px;
 	height: 300px;

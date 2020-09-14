@@ -116,13 +116,13 @@
                 <!-- <p><strong>Email:</strong> iwd.enquire@gmail.com</p> -->
                 <form name="Business Enquiry" action="POST" data-netlify="true" >
                     <p class="label">
-                      <label >Your Name: <input type="text" name="name" /></label>   
+                      <label >Your Name:<span class="required">*</span> <input type="text" name="name" required ></label>   
                     </p>
                     <p class="label">
-                      <label >Your Email: <input type="email" name="email" /></label>
+                      <label >Your Email:<span class="required" >*</span> <input type="email" name="email" required></label>
                     </p >
                     <p  class="label">
-                      <label> Message: <textarea name="message" rows="1" ></textarea></label>
+                      <label> Message:<span class="required">*</span><textarea name="message" rows="1" required></textarea></label>
                     </p>
              
                     <p>
