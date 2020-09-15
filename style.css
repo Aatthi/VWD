@@ -137,7 +137,7 @@ nav a:hover {
 .profile-text button:hover {
 	background: black;
 	color: white;
-	transition: 0.3s;
+	transition: all 0.3s ease-out;
 	cursor: pointer;
 }
 
@@ -322,7 +322,7 @@ form button {
 form button:hover {
 	background: black;
 	color: white;
-	transition: 0.3s;
+	transition: all 0.3s ease-out;
 	cursor: pointer;
 }
 
