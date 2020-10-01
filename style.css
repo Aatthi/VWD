@@ -253,8 +253,10 @@ nav a:hover {
 }
 
 .recent-work-wrapper {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
+	background: rgba(199, 199, 199, 0.192);
+	padding: 10px 20px;
 }
 
 .recent-work-heading {
