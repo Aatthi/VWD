@@ -257,6 +257,7 @@ nav a:hover {
 	margin: 0 auto;
 	background: rgba(199, 199, 199, 0.192);
 	padding: 10px 20px;
+	border-radius: 20px;
 }
 
 .recent-work-heading {
