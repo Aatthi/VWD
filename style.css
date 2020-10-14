@@ -278,10 +278,12 @@ nav a:hover {
 .recent-work img {
 	filter: grayscale(100%);
 	transition: all 0.1s ease-in-out;
+	border-radius: 20px;
+	filter: grayscale(0%);
 }
 
 .recent-work img:hover {
-	filter: grayscale(0%);
+	filter: grayscale(100%);
 }
 
 .recent-work h2 {
@@ -291,6 +293,10 @@ nav a:hover {
 .recent-work-heading h1 {
 	margin: 10px 0 50px 0;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.recent-work div {
+	margin: 0 30px;
 }
 
 #contact-me {
