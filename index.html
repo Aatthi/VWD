@@ -19,8 +19,8 @@
 </script>
 
 </head>
-<body>
-
+<body class="dark-theme || light-theme">
+  
     <div class="header">
         <div class="header-wrapper">
             <h1><span class="Impact">I</span> <span class="web">W</span><span class="design">D</span></h1>
@@ -31,6 +31,7 @@
                 <li><a href=https://github.com/Aatthi><img src="Images/github.png" width="25px" height="25px"></a></a></li>
                 <li><a href="https://www.instagram.com/impact_web_designs/?hl=en"><img src="Images/IG.png" width="25px" height="25px"></a></li>
                 <li><a href=""> <img src="Images/linkedin.png" width="25px" height="25px"></a></li>
+                <li><button class="btn-toggle">Light Mode</button></li>
             </nav>
         </div>
         <div class="header-text">
@@ -197,9 +198,6 @@
           </div>
         </div>
       </div> -->
-
-
-
         <div id="contact-me">
             <div class="div">
                 <h1>CONTACT ME</h1>
@@ -226,6 +224,16 @@
 
         <p class="copyRight"> Impact Web Designs, &copy; 2020.</p>
     </div>
-
 </body>
+
+<script>
+  // Select the button
+const btn = document.querySelector('.btn-toggle');
+
+// Listen for a click on the button
+btn.addEventListener('click', function() {
+  // Then toggle (add/remove) the .dark-theme class to the body
+  document.body.classList.toggle('dark-theme');  
+})
+</script>
 </html>
