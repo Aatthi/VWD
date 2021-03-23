@@ -213,6 +213,7 @@ nav a:hover {
 
 .services {
 	display: flex;
+
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
@@ -226,6 +227,7 @@ nav a:hover {
 	align-items: center;
 	width: 80%;
 	margin: 0 auto;
+	flex-wrap: wrap;
 }
 
 .services-info div {
@@ -234,6 +236,7 @@ nav a:hover {
 	border-radius: 40px;
 	background: rgba(199, 199, 199, 0.192);
 	width: 100%;
+	flex: 1 1 220px;
 }
 
 .services-info h2 {
@@ -443,12 +446,12 @@ form button:hover {
 }
 
 @media (max-width: 1300px) {
-	.services-info {
+	/* .services-info {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-	}
+	} */
 
 	.services div {
 		margin: 10px 10px;
@@ -463,9 +466,9 @@ form button:hover {
 }
 
 @media (max-width: 1000px) {
-	.services {
+	/* .services {
 		width: 90%;
-	}
+	} */
 }
 
 @media (max-width: 850px) {
@@ -476,7 +479,7 @@ form button:hover {
 	/* .header-text p {
 		margin-bottom: 420px;
 	} */
-	.services-info {
+	/* .services-info {
 		display: flex;
 		flex-direction: column;
 	}
@@ -490,7 +493,7 @@ form button:hover {
 	}
 	.services {
 		width: 80%;
-	}
+	} */
 
 	.personal-info img {
 		width: 300px;
