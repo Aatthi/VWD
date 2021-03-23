@@ -119,6 +119,17 @@ nav a:hover {
 }
 
 .btn-toggle {
+	background: white;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding: 7px 15px;
+	border-radius: 20px;
+	border: 1px transparent;
+	outline: none;
+	font-size: 15px;
+}
+
+.btn-toggle-dark {
 	background: black;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -127,6 +138,7 @@ nav a:hover {
 	border: 1px transparent;
 	outline: none;
 	font-size: 15px;
+	display: none;
 }
 
 .header-text {

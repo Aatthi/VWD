@@ -32,6 +32,7 @@
                 <li><a href="https://www.instagram.com/impact_web_designs/?hl=en"><img src="Images/IG.png" width="25px" height="25px"></a></li>
                 <li><a href=""> <img src="Images/linkedin.png" width="25px" height="25px"></a></li>
                 <li><button class="btn-toggle">Light Mode</button></li>
+                <li><button class="btn-toggle-dark">Dark Mode</button></li>
             </nav>
         </div>
         <div class="header-text">
@@ -202,7 +203,7 @@
             <div class="div">
                 <h1>CONTACT ME</h1>
                 <!-- <p><strong>Email:</strong> iwd.enquire@gmail.com</p> -->
-                <form name="Business Enquiry" action="POST" data-netlify="true" >
+                <form class="form" name="Business Enquiry" action="POST" data-netlify="true" >
                     <p class="label">
                      </span> <input type="text" name="name" required placeholder="Name"> 
                     </p>
@@ -229,11 +230,24 @@
 <script>
   // Select the button
 const btn = document.querySelector('.btn-toggle');
+const button = document.querySelector('.btn-toggle-dark')
+const formText = document.querySelector('.form')
 
 // Listen for a click on the button
 btn.addEventListener('click', function() {
   // Then toggle (add/remove) the .dark-theme class to the body
-  document.body.classList.toggle('dark-theme');  
+  document.body.classList.toggle('dark-theme');
+  btn.style.display = "none"; 
+  button.style.display = "flex"
+
+
+});
+
+button.addEventListener('click', function() {
+  document.body.classList.toggle('dark-theme');
+  btn.style.display = "flex"; 
+  button.style.display = "none";
+
 })
 </script>
 </html>
