@@ -28,9 +28,9 @@
             <nav>
                 <!-- <li><a href="designs.html"> Designs</a></li>
                 <li><a href="enquire-now-2.html">Enquire Now</a></li> -->
-                <li><a href=https://github.com/Aatthi><img src="Images/github.png" width="25px" height="25px"></a></a></li>
-                <li><a href="https://www.instagram.com/impact_web_designs/?hl=en"><img src="Images/IG.png" width="25px" height="25px"></a></li>
-                <li><a href=""> <img src="Images/linkedin.png" width="25px" height="25px"></a></li>
+                <li><a href=https://github.com/Aatthi><img src="Images/Social/github.png" width="25px" height="25px"></a></a></li>
+                <li><a href="https://www.instagram.com/impact_web_designs/?hl=en"><img src="Images/Social/IG.png" width="25px" height="25px"></a></li>
+                <li><a href=""> <img src="Images/Social/linkedin.png" width="25px" height="25px"></a></li>
                 <li><button class="btn-toggle">Light Mode</button></li>
                 <li><button class="btn-toggle-dark">Dark Mode</button></li>
             </nav>
@@ -50,10 +50,10 @@
                 <p>I specialise in building websites for small businesses and continue to  assist them in the management of their websites.</p>
                 <br>
                 <br>
-                <a href="#contact-me"><button>Contact me</button></a>
+                <a href="#contact-me"><button id ="contactMeButton">Contact me</button></a>
             </div>
             <div class="profile-picture">
-                <img src="Images/Profile-pic.png" width="400px" height="400px">
+                <img src="Images/Logos/TransparentLogo.png" width="600px" height="600px">
             </div>
             
         </div>
@@ -65,17 +65,17 @@
             </div>
             <div class="services-info">
                 <div class="website-design">
-                    <img src="Images/website-design.png" alt="">
+                    <img src="Images/Website Images/website-design.png" alt="">
                     <h2>Website Design</h2>
                     <p>I aim to create customised and unique Website designs for each client and their businesses. The designs will be  eye-catching, user focused and easily accessible</p>
                 </div>
                 <div class="website-managment">
-                    <img src="Images/Website-development.png" alt="">
+                    <img src="Images/Website Images/Website-development.png" alt="">
                     <h2>Website Management</h2>
                     <p>A systematic approach to managing web hosting and acquiring domain names for your website. On the completion of the website I offer my clients any assistance with web-hosting and website updates required.  </p>
                 </div>
                 <div class="cost-effective">
-                    <img src="Images/cost-effective.png" alt="">
+                    <img src="Images/Website Images/cost-effective.png" alt="">
                     <h2>Cost Effective</h2>
                     <p>All the services of a Professional Website Designer at an affordable price. I have plans suitable for all types of clients and small businesses to ensure the creation of your website</p>
                 </div>
@@ -90,32 +90,32 @@
             </div>
             <div class="design-list">
                 <div class="bussiness-website">
-                    <img src="Images/bussiness-website.png" alt="">
+                    <img src="Images/Website Images/bussiness-website.png" alt="">
                     <h2>Business Website</h2>
                     <p>Evolve your business with a Professional landing page to showcase to your customers</p>
                 </div>
                 <div class="portfolio-website">
-                    <img src="Images/profile-website.png" alt="">
+                    <img src="Images/Website Images/profile-website.png" alt="">
                     <h2>Portfolio Website</h2>
                     <p>Looking to make an Impression and showcase your work? What better way to do it then a website.</p>
                 </div>
                 <div class="Photography-website">
-                    <img src="Images/photography-website.png" alt="">
+                    <img src="Images/Website Images/photography-website.png" alt="">
                     <h2>Photography Website</h2>
                     <p>Showcase your photos with a slick design options. Designs are 100% customisable </p>
                 </div>
                 <div class="wedding-website">
-                    <img src="Images/Wedding-website.png" alt="">
+                    <img src="Images/Website Images/Wedding-website.png" alt="">
                     <h2>Wedding Website</h2>
                     <p>Create an online RSVP system, showcase photos and more with an Wedding website for your special day.</p>
                 </div>
                 <div class="responsive-website">
-                    <img src="Images/mobile-website.png" alt="">
+                    <img src="Images/Website Images/mobile-website.png" alt="">
                     <h2>Responsive Websites</h2>
                     <p>Create responsive websites that is viewable across all platforms and browsers.</p>
                 </div>
                 <div class="blogs">
-                    <img src="Images/Blog.png" alt="">
+                    <img src="Images/Website Images/Blog.png" alt="">
                     <h2>Blogs</h2>
                     <p>Create interesting conversations to further expand your contacts on the web</p>
                 </div>
@@ -129,11 +129,11 @@
         </div>
         <div class="recent-work">
           <div class="ellies-flowers">
-            <a href="https://ellies-flowers.com/"><img src="Images/ellies-flowers.png" alt="" width="300px" height="200px"></a>
+            <a href="https://ellies-flowers.com/"><img src="Images/Website Images/ellies-flowers.png" alt="" width="300px" height="200px"></a>
             <h2>Ellies Flowers</h2>
           </div>
           <div class="memory-flash">
-            <a href="https://dreamy-ramanujan-9e906f.netlify.app/"><img src="Images/memory-flash.jpg" alt="" width="300px" height="200px"></a>
+            <a href="https://dreamy-ramanujan-9e906f.netlify.app/"><img src="Images/Website Images/memory-flash.jpg" alt="" width="300px" height="200px"></a>
             <h2>Memory Flash</h2>
           </div>
         </div>
@@ -231,7 +231,9 @@
   // Select the button
 const btn = document.querySelector('.btn-toggle');
 const button = document.querySelector('.btn-toggle-dark')
-const formText = document.querySelector('.form')
+const formText = document.querySelector('.form');
+btn.setAttribute('class', 'lightThemeButton');
+
 
 // Listen for a click on the button
 btn.addEventListener('click', function() {
@@ -243,10 +245,13 @@ btn.addEventListener('click', function() {
 
 });
 
+
+button.setAttribute('class', 'darkThemeButton')
 button.addEventListener('click', function() {
   document.body.classList.toggle('dark-theme');
   btn.style.display = "flex"; 
   button.style.display = "none";
+  
 
 })
 </script>

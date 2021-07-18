@@ -208,6 +208,7 @@ nav a:hover {
 	font-size: 30px;
 	background: none;
 	transition: all 0.3s ease-out;
+	margin: 30px;
 }
 
 .profile-text button:hover {
@@ -597,4 +598,38 @@ form button:hover {
 	text-align: center;
 
 	padding: 10px 0;
+}
+
+.lightThemeButton {
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: none;
+	background: transparent;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	transition: all 0.4s;
+}
+
+.lightThemeButton:hover {
+	background: white;
+	opacity: 0.9;
+}
+
+.darkThemeButton {
+	display: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: none;
+	background: transparent;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	transition: all 0.4s;
+}
+
+.darkThemeButton:hover {
+	background: black;
+	opacity: 0.9;
+	color: white;
 }
